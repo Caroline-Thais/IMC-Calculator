@@ -34,9 +34,10 @@ h3 {
 }
 
 .container .leftSide p {
-  margin: 0;
+  margin: 2px 0 35px;
   font-size: 16px;
   color: #6A7d8b;
+
 }
 
 .container .leftSide input {
@@ -69,5 +70,13 @@ h3 {
 
 .container .rightSide {
   flex: 1;
+  /*flex: 1 é para pegar todo o espaço disponível*/
+  display: flex;
+}
 
+.container .rightSide .grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
 }
