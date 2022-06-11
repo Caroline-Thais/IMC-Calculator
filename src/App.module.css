@@ -65,7 +65,6 @@ h3 {
 
 .container .leftSide button:hover {
   opacity: .8;
-
 }
 
 .container .rightSide {
@@ -79,4 +78,28 @@ h3 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+}
+
+.container .rightSide .rightBig {
+  flex: 1;
+  display: flex;
+
+}
+
+.container .rightSide .rightArrow {
+  position: absolute;
+  background-color: blueviolet;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: -35px;
+  margin-top: 145px;
+}
+
+.container .rightSide .rightArrow:hover {
+  opacity: .8;
 }
